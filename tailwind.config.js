@@ -12,8 +12,17 @@ module.exports = {
         darkGrayishBlue: 'hsl(217, 19%, 24%)',
         darkBlue: 'hsl(218, 23%, 16%)',
 
+      }, 
+
+      boxShadow: {
+        neonGreen: '0 0 15px rgba(57, 255, 20, 0.5)',
       }
     },
+  },
+  variants: {
+    extend: {
+      boxShadow: ['active'], // Enable box shadow on active state
+    }
   },
   plugins: [],
 }
